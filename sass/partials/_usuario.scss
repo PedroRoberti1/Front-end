@@ -1,0 +1,25 @@
+.descripcion__usuario{
+    background-color: rgb(240, 136, 0);
+    border: 5px solid black;
+
+    .usuario__grid{
+        padding: 10px 40px 0px;
+    }
+    .acerca__grid{
+        text-align: center;
+    }
+    img{
+        position: relative;
+        width: 50px;
+        left: 45%;  
+    }
+}
+.experiencia__educacion{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border: 5px solid green;
+    border-radius: 5%;
+    padding: 30px;
+    margin: 20px;
+}
