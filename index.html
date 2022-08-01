@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+        integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -48,7 +54,7 @@
             <div class="banner__contenedor">
                 <img src="./Imagenes/img/imgperfil.png" class="perfil__imagen" alt="">
                 <img src="./Imagenes/img/programador-php.png" class="banner__imagen" alt="">
-                <div>                    
+                <div>
                 </div>
             </div>
         </section>
@@ -59,33 +65,86 @@
                 <div class="usuario__grid">
                     <h2>Pedro Roberti</h2>
                     <p>Programador web full stack <br>
-                    Estudiante desarrollador de software</p>                    
+                        Estudiante desarrollador de software</p>
                 </div>
                 <div class="acerca__grid">
                     <h1>Acerca de mi</h1>
-                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quae
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quae
                         nihil quod. Nisi sunt ullam <br>
-                        consectetur possimus? Quam natus recusandae eveniet, modi dolore consectetur magnam velit molestias
+                        consectetur possimus? Quam natus recusandae eveniet, modi dolore consectetur magnam velit
+                        molestias
                         molestiae! Est, reiciendis.
                     </p>
-                    <img src="./Imagenes/img/640px-Conicet_Logo_con_letras.png"alt="">
+                    <img src="./Imagenes/img/640px-Conicet_Logo_con_letras.png" alt="">
                     <img src="./Imagenes/img/1571008925601.jpg" alt="">
-                </div>            
-                
+                </div>
+
             </div>
         </section>
         <!----------------------------------------// Articulos //---------------------------------------->
-        <section class="experiencia__educacion">
+        <section class="Info__trabajo">
             <article>
-                <h2>Experiencia</h2>
+                <h1>Experiencia laboral</h1>
+                <ul>
+                    <li>
+                        <h2>Trabajo1</h2> -
+                        <h3>(años)</h3>
+                    </li>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, eum.</p>
+                </ul>
             </article>
             <article>
-                <h2>Educacion</h2>
+                <ul>
+                    <li>
+                        <h2>Trabajo2</h2> -
+                        <h3>(años)</h3>
+                    </li>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, quod?</p>
+                </ul>
             </article>
         </section>
 
+        <section class="info__educacion">
+            <article>
+                <h1>Educacion</h1>
+                <ul>
+                    <li>
+                        <h2>Trabajo1</h2> -
+                        <h3>(años)</h3>
+                    </li>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, eum.</p>
+                </ul>
+            </article>
+            <article>
+                <ul>
+                    <li>
+                        <h2>Trabajo2</h2> -
+                        <h3>(años)</h3>
+                    </li>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, quod?</p>
+                </ul>
+            </article>
+        </section>
+        <!----------------------------------------// Skills //---------------------------------------->
+
         <section class="hard__skills">
-            <h2>Hard Skills & Soft Skills</h2>
+            <h2>Hard Skills & Soft Skills:</h2>
+            <div class="container__skill1">
+                <div class="caja__skill1">
+                    <div class="cuadro__skill1" data-percent = "90">90%</div>
+                    <h2>HTML</h2>
+                </div>
+                
+                <div class="caja__skill1">
+                    <div class="cuadro__skill1" data-percent = "70">70%</div>
+                    <H2>CSS</H2>
+                </div>
+
+                <div class="caja__skill1">
+                    <div class="cuadro__skill1" data-percent = "60">60%</div>
+                    <H2>JAVASCRIP</H2>
+                </div>
+            </div>            
         </section>
 
         <section class="Proyectos">
@@ -102,7 +161,20 @@
 
     </main>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+    <script> 
+    $(function(){
+        $(".cuadro__skill1").easyPieChart({
+            size:170,
+            barColor: "#36e617",
+            scaleLength: 0,
+            lineWidth: 15,
+            trackColor: "525151",
+            lineCap: "Circle",
+            animate: 2000,
+        })
+    })
+    </script>
 </body>
 
 </html>
