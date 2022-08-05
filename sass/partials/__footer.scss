@@ -1,7 +1,11 @@
 /* <!----------------------------------------// Footer //----------------------------------------> */
 
 footer{
-    background-color: chartreuse;
+    background-color: rgb(5, 5, 5);
     text-align: center;
-    box-shadow: 2px -2px 5px coral;
+    // box-shadow: 2px -2px 5px coral;
+    min-height: 80px;
+    p{
+        color: aliceblue;
+    }
 }

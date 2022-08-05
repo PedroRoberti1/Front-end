@@ -11,20 +11,24 @@
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(2, 200px);
     grid-column-gap: 300px;
-    grid-column: initial;   
     grid-row-gap: 120px;
-    padding-left: 50px;
+    justify-content: space-evenly;
+    
 
     .caja__skill1{
             img{            
             height: 200px;
             position: absolute;
         }
+    
+        
     }
     .cuadro__skill1{
         position: relative;
+
         
         canvas{
+            
             width: 100%;
         }
     }

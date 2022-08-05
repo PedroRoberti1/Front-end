@@ -3,8 +3,7 @@
 /* <!----------------------------------------// Usuarios //----------------------------------------> */
 
 .descripcion__usuario{
-    background-color: rgba(240, 136, 0, 0.091);
-    border: 5px solid black;
+    border: 5px  black;
 
     .usuario__grid{
         padding: 10px 40px 0px;
@@ -21,9 +20,6 @@
     }
 }
 .Info__trabajo{
-    background-color: rgba(0, 255, 255, 0.202);
-    border: 5px solid green;
-    border-radius: 5%;
     padding: 30px;
     margin: 20px;
     ul{
@@ -32,9 +28,6 @@
 }
 
 .info__educacion{
-    background-color: rgba(0, 255, 255, 0.202);
-    border: 5px solid green;
-    border-radius: 5%;
     padding: 30px;
     margin: 20px;
     ul{
