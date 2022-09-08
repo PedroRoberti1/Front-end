@@ -1,0 +1,31 @@
+
+.descripcion__usuario{
+    border: 5px  black;
+}
+    .usuario__grid{
+        padding: 10px 40px 0px;
+        
+    }
+    .acerca__grid{
+        text-align: center;
+
+    }
+    
+    img{
+        position: relative;
+        width: 50px;
+        left: 45%;  
+    }
+
+.Info__trabajo{
+    padding: 30px;
+    margin: 20px;
+}
+ul{
+    padding-left: 5%;
+}
+.info__educacion{
+    padding: 30px;
+    margin: 20px;
+
+}

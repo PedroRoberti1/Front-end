@@ -1,0 +1,25 @@
+
+
+.hard__skills{
+    position: relative;
+    font-family: arial;   
+}
+.container__skill1{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 200px);
+    grid-column-gap: 300px;
+    grid-row-gap: 120px;
+    justify-content: space-evenly;
+    }
+
+    img{                    
+        height: 170px;
+        position: absolute;
+    }
+
+
+    .cuadro__skill1{
+        position: relative;
+    }
+

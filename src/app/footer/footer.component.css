@@ -1,0 +1,8 @@
+footer{
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+    min-height: 80px;
+}
+footer p{
+    color: aliceblue;
+}

@@ -1,0 +1,50 @@
+.Proyectos__container{
+    width: 100%;
+    
+}
+
+
+.proyecto__container1{
+    display: flex;
+    flex-direction: row;
+
+
+}
+    div{
+        position: relative;
+        width: 100%;
+
+    }
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        text-align: justify;
+    }
+
+
+    /* // hacemos con flex, nose si esta bien, tengo que revisar las medidas de la caja, encontrar una mejor forma de posicionar. */
+
+
+    .imagen__container{
+        display: flex;
+
+    }
+
+    img{
+        position: absolute;
+        left: 40%;
+        display: block;
+        height: 180px;            
+        
+        box-shadow: 2px 2px 40px rgb(0, 255, 170);
+        /* // box-shadow:
+        // 1px 1px 0 rgb(0, 140, 255),
+        // 2px 2px 0 rgb(0, 140, 255),
+        // 3px 3px 0 rgb(0, 140, 255),
+        // 4px 4px 0 rgb(0, 140, 255),
+        // 5px 5px 0 rgb(0, 140, 255),
+        // 6px 6px 0 rgb(0, 140, 255),
+        // 7px 7px 0 rgb(0, 140, 255); */
+
+    }
